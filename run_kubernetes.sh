@@ -4,7 +4,7 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath="trunghieu9506/hieuhuynh-project-capstone:v1.0.0"
+dockerpath="trunghieu9506/hieuhuynh-project-capstone:latest"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
