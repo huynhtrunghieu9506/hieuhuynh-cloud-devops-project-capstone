@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hieuhuynh-project-capstone
-          image: docker.io/trunghieu9506/hieuhuynh-project-capstone:latest
+          image: trunghieu9506/hieuhuynh-project-capstone:latest
           imagePullPolicy: Always
           ports:
             - name: app
