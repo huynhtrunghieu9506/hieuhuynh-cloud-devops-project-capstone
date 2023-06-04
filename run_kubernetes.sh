@@ -4,16 +4,16 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath="trunghieu9506/hieuhuynh-project4:v1.0.0"
+dockerpath="trunghieu9506/hieuhuynh-project-capstone:v1.0.0"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl create deploy hieuhuynh-project4 --image=$dockerpath
+kubectl create deploy hieuhuynh-project-capstone --image=$dockerpath
 
 # Step 3:
 # List kubernetes pods
 kubectl get pods
-POD_NAME=`kubectl get pod | grep hieuhuynh-project4 | sed 's/ .*//'`
+POD_NAME=`kubectl get pod | grep hieuhuynh-project-capstone | sed 's/ .*//'`
 
 # Step 4:
 # Forward the container port to a host

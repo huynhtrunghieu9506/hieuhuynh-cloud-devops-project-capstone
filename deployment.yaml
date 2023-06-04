@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hieuhuynh-project-capstone
+  labels:
+    app: hieuhuynh-project-capstone
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hieuhuynh-project-capstone
+  template:
+    metadata:
+      labels:
+        app: hieuhuynh-project-capstone
+    spec:
+      containers:
+        - name: hieuhuynh-project-capstone
+          image: docker.io/trunghieu9506/hieuhuynh-project-capstone:v1.0.0
+          imagePullPolicy: Always
+          ports:
+            - name: app
+              containerPort: 80

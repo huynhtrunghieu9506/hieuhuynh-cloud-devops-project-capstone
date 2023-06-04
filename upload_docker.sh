@@ -5,12 +5,12 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath="trunghieu9506/hieuhuynh-project4:v1.0.0"
+dockerpath="trunghieu9506/hieuhuynh-project-capstone:v1.0.0"
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker tag hieuhuynh-project4 $dockerpath
+docker tag hieuhuynh-project-capstone $dockerpath
 docker images
 docker login
 
