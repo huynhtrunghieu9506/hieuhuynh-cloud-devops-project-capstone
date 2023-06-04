@@ -68,8 +68,8 @@ jobs:
             docker logout docker.io
             docker login docker.io -u $DOCKER_USERNAME --password $DOCKER_PASSWORD
             docker build . -t trunghieu9506/hieuhuynh-project-capstone:latest
-            docker tag hieuhuynh-project-capstone trunghieu9506/hieuhuynh-project-capstone:latest
-            docker push trunghieu9506/hieuhuynh-project-capstone:latest
+            docker tag trunghieu9506/hieuhuynh-project-capstone:latest trunghieu9506/hieuhuynh-project-capstone:latest
+            docker push docker.io/trunghieu9506/hieuhuynh-project-capstone:latest
 
   # Reference from this source: https://circleci.com/developer/orbs/orb/circleci/aws-eks
   create-aws-cluster:
