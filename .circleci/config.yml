@@ -111,12 +111,12 @@ jobs:
 workflows:
   deployment:
     jobs:
-      - lint-dockerfile
+      - build
       - push-docker-images:
           requires:
-            - "lint-dockerfile"
+            - "build"
       - create-aws-cluster:
           requires:
-            - "lint-dockerfile"
+            - "build"
       - create-deployment:
           requires: [push-docker-images, create-aws-cluster]
