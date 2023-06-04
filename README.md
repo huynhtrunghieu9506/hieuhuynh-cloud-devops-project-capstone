@@ -1,4 +1,6 @@
 ## Project Overview
+[![huynhtrunghieu9506](https://circleci.com/gh/huynhtrunghieu9506/hieuhuynh-cloud-devops-project-capstone.svg?style=svg)](https://app.circleci.com/pipelines/github/huynhtrunghieu9506/hieuhuynh-cloud-devops-project-capstone)
+
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
 
