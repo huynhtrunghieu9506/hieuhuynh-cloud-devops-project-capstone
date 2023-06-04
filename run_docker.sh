@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag=hieuhuynh-project-capstone .
+docker build --tag=hieuhuynh-project-capstone:v1.0.0 .
 # Step 2: 
 # List docker images
 docker images
